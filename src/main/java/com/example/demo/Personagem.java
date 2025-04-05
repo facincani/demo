@@ -7,6 +7,15 @@ public class Personagem {
 
     private String id;
     private String name;
+    private String species;
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
 
     public String getId() {
         return id;
